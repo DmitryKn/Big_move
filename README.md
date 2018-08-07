@@ -1,1 +1,3 @@
-# Big_move
+#BigMove project
+
+npm start

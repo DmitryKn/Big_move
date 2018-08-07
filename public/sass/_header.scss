@@ -1,0 +1,20 @@
+.Navbar{
+  background-color: $color-primary;
+  
+  &_Brand{
+    margin: 0 10%;
+  }
+}
+
+.ml{
+  margin: 0 auto;
+  .nav-link{
+    margin: 0 10px;
+    font-weight: 600;
+    @extend %transition_base;
+
+    &:hover{
+      @extend %transition_hover;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+.home{
+  &_logo{
+    width: 100%;
+  }
+  &_title{
+    margin: 40px;
+    text-align: center;
+  }
+  .del_img{
+    margin-bottom: 20px;
+    img{
+      width: 100%;
+    }
+  }
+  .del_about{
+    p{
+      line-height: 2;
+      color: $color-gray-medium;
+    }
+  }
+  &_table{
+    margin-top: 20px;
+    display: flex;
+    flex-flow: row wrap;
+    ul{
+      margin: 20px;
+    }
+    .fas{
+      color: $color-blue-medium;
+    }
+  }
+}

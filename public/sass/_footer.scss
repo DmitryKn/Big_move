@@ -1,0 +1,31 @@
+.footer{
+  width: 100%;
+  background-color: $color-blue-dark;
+  color: white;
+
+  .row{
+    justify-content: space-around;
+  }
+  &_contacts{
+    padding: 20px;
+  }
+  &_nav{
+    &:first-child{
+      padding-top: 20px;
+    }
+  }
+  &_news{
+    padding: 20px;
+    input {
+      margin: 10px 0
+    }
+  }
+  h3{
+    margin: 10px 0;
+    text-transform: uppercase;
+  }
+}
+
+.footer-text-bold{
+  font-weight: 600;
+}

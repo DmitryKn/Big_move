@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif; }
+
+a {
+  text-transform: uppercase;
+  text-decoration: none; }
+
+li {
+  list-style: none;
+  padding: 10px; }
+
+h1, h2 {
+  text-transform: uppercase; }
+
+.ml .nav-link, .services p {
+  opacity: .5;
+  transition: color 1.2s, opacity 1.2s; }
+
+.ml .nav-link:hover, .services p:hover {
+  color: #0169AC;
+  opacity: 1; }
+
+.Navbar {
+  background-color: #D3E3FF; }
+  .Navbar_Brand {
+    margin: 0 10%; }
+
+.ml {
+  margin: 0 auto; }
+  .ml .nav-link {
+    margin: 0 10px;
+    font-weight: 600; }
+
+.footer {
+  width: 100%;
+  background-color: #202638;
+  color: white; }
+  .footer .row {
+    justify-content: space-around; }
+  .footer_contacts {
+    padding: 20px; }
+  .footer_nav:first-child {
+    padding-top: 20px; }
+  .footer_news {
+    padding: 20px; }
+    .footer_news input {
+      margin: 10px 0; }
+  .footer h3 {
+    margin: 10px 0;
+    text-transform: uppercase; }
+
+.footer-text-bold {
+  font-weight: 600; }
+
+.home_logo {
+  width: 100%; }
+
+.home_title {
+  margin: 40px;
+  text-align: center; }
+
+.home .del_img {
+  margin-bottom: 20px; }
+  .home .del_img img {
+    width: 100%; }
+
+.home .del_about p {
+  line-height: 2;
+  color: #707070; }
+
+.home_table {
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row wrap; }
+  .home_table ul {
+    margin: 20px; }
+  .home_table .fas {
+    color: #0169AC; }
+
+.services_img {
+  width: 100%; }
+
+.services .side_panel {
+  min-width: 20%;
+  background-color: #F0F2FF;
+  height: 100%; }
+
+.services li:first-child {
+  padding-top: 40px; }
+
+.services p {
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 0 10px;
+  padding: 5px; }
+
+.services_do {
+  margin: 40px 0; }
+
+.service_card {
+  margin-bottom: 20px; }
+  .service_card h3 {
+    font-size: 16px;
+    font-weight: 800;
+    margin-top: 15px; }
+
+@media (max-width: 576px) {
+  .side_panel {
+    display: none; }
+  .NavbarBrand {
+    margin: 0; }
+  .services_do h1 {
+    text-align: center; } }
